@@ -54,7 +54,7 @@ set<int> Union(const set<int> &a, const set<int> &b){
 	return resultado;
 }
 
-set<int>  InterseccionDisjunta(const set<int> &a, const set<int> b, const set<int> &c){
+set<int>  InterseccionDisjunta(const set<int> &a, const set<int> &b, const set<int> &c){
 	set<int> resultado;
 	set<int>::iterator it;
 	
